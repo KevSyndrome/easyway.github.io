@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyWay</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img2"><img src="/imagen/EASY WAY.png" alt="EasyWay Logo" class="logo-img"></div>
+            
+        </header>
+        <main>
+            <p>Bienvenido a <span class="highlight">Easy Way</span>, nuevos caminos te esperan</p>
+            <div class="buttons">
+                <button class="btn start-btn" onclick="navigateTo('/easyway/html/mapa.html')">Comenzar</button>
+                <button class="btn login-btn" onclick="navigateTo('login.html')">Iniciar sesión</button>
+            </div>
+        </main>
+        <footer>
+            <p>Al continuar, aceptas las <a href="/html/privacidad.html">Condiciones del Servicio</a> y la <a href="/html/terminos.html">Política de Privacidad</a> de Easy Way.</p>
+        </footer>
+    </div>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img2{
+    height: 200px;
+    width: 300px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #efeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo-img {
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+h1.title, h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+.highlight {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #8BC34A; 
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: #d8f5dd;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 6px rgba(6, 185, 73, 0.4);
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.start-btn {
+    background-color: #2E7D32;
+}
+
+.login-btn {
+    background-color: #00712D;
+    align-items: center;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+footer a {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.circle {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #888;
+    font-weight: bold;
+}
+
+.login-link{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo-img{
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.container2{
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    text-align: justify;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-left: 40px;
+    height: 80%;
+  }
+
+  .btn .start-btn{
+    align-items: center;
+  }
+
+  .sesion{
+    color: #00712D;
+  }
+
+  .cuenta{
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .xd{
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+
+@media (max-width: 480px) {
+    /* Estilos para móviles pequeños */
+}
+
+@media (max-width: 767px) {
+    /* Estilos para móviles estándar */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tabletas */
+}
+
+  /* Estilos para laptops y pantallas pequeñas */
+@media (min-width: 1025px) and (max-width: 1440px){
+    .body{
+            width: 100%;
+            max-width: 400px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+}}
+
+@media (min-width: 1441px) {
+    /* Estilos para pantallas grandes */
+}
+
+/* Estilos base para móviles */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
